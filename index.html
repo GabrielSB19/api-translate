@@ -8,23 +8,30 @@
     <title>Gabriel's Traductor</title>
 </head>
 <body>
-    <h1>Traductor</h1>
+    <h1 class="header">Traductor</h1>
     <div class="languages-container">
-        <label for="from">Traducir del: </label>
-        <select name="" id="from">
-            <option value="1">Español</option>
+        <label for="translateFrom">Traducir del: </label>
+        <select name="" id="translateFrom">
+            <option value="es">Español</option>
         </select>
         <label for="translateTo">al: </label>
-        <select name="" id="translateTo"></select>
+        <select name="" id="translateTo">
+            <option value="en">Ingles</option>
+        </select>
     </div>
     <div class="result-container">
-        <label for="inputTranslate">Ingrese el texto a traducir</label><br>
-        <textarea name="" id="inputTranslate" cols="10" rows="10"></textarea>
-
+        <div class="first-section">
+            <label for="inputTranslate">Ingrese el texto a traducir</label>
+            <textarea name="" id="inputTranslate" cols="10" rows="10"></textarea>
+        </div>
+        
         <button>Traducir</button>
 
-        <label for="outputTranslate">Resultado:</label><br>
-        <textarea name="" id="outputTranslate" cols="10" rows="10"></textarea>
+        <div class="second-section">
+            <label for="outputTranslate">Resultado:</label>
+            <textarea name="" id="outputTranslate" cols="10" rows="10"></textarea>
+        </div>
+        
     </div>
     <script src="./main.js"></script>
 </body>

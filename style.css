@@ -1,3 +1,27 @@
+.header {
+  text-align: center;
+}
 
+.languages-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.first-section, .second-section {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  justify-content: center;
+}
+
+label {
+  text-align: center;
+}
+
+.result-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 /*# sourceMappingURL=style.css.map */
